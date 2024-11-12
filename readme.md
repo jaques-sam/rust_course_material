@@ -12,14 +12,15 @@ Make sure you have rust installed:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-Run an example ./examples/constants.rs:
+Run an example ./examples/variables_and_constants.rs:
 ```sh
-cargo run --example constants
+cargo run --example variables_and_constants
 ```
 
 To verify all example code:
 
 ```sh
+cd rust_course_material
 cargo clippy --workspace --all-targets --tests --examples -- -D warnings
 ```
 
