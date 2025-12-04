@@ -1,3 +1,4 @@
+#[allow(clippy::useless_vec)]
 fn main() {
     let mut v1: Vec<i32> = Vec::new();  // optional type forcing
     let v2 = vec![1, 2, 3];  // type i32 inferred

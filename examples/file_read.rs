@@ -2,6 +2,7 @@ use std::fs::File;
 use std::io::{self, Read};
 
 /// The long version
+#[allow(clippy::question_mark)]
 fn read_line_from_file_long() -> Result<String, io::Error> {
     let f = File::open("examples/username.txt");
 
